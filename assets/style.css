@@ -122,17 +122,17 @@ p {
 /* Responsive adjustments for smaller screens */
 @media (max-width: 768px) {
     .overview-container {
-        flex-direction: column; /* Stack containers vertically */
         padding: 3rem 2rem 0 2rem;
     }
 
     .overview-content-container {
         width: 100%; /* Full width */
         min-height: auto; /* Removes minimum height restriction */
-        padding: 10px;
+        padding-bottom: 1rem;
     }
 
     .overview-content-container p {
+        width: 100%;
         min-height: auto;
     }
 }
@@ -256,6 +256,16 @@ p {
 }
 
 
+/* Responsive adjustments for smaller screens */
+@media (max-width: 768px) {
+    .research-container,
+    .design-container,
+    .implementation-container {
+        padding: 3rem 2rem 0 2rem;
+    }
+}
+
+
 
 
 /*** Testing & Refinement ***/
@@ -276,7 +286,12 @@ p {
     line-height: 1.5;
 }
 
-
+/* Responsive adjustments for smaller screens */
+@media (max-width: 768px) {
+    .refinement-container {
+        padding: 3rem 2rem 0 2rem;
+    }
+}
 
 
 /*** Benefits ***/
@@ -292,6 +307,14 @@ p {
     letter-spacing: 0.3px;
     line-height: 1.5;
 }
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 768px) {
+    .benefit-container {
+        padding: 3rem 2rem 0 2rem;
+    }
+}
+
 
 
 /* Features */
