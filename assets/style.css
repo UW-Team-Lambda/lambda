@@ -152,7 +152,7 @@ p {
     border: none;
     height: 1.5px;
     background-color: #92a0b0;
-    margin: 3.5rem auto 2rem auto;
+    margin: 5rem auto 2rem auto;
 }
 
 .problem-container h1 {
@@ -217,7 +217,7 @@ p {
     border: none;
     height: 1.5px;
     background-color: #92a0b0;
-    margin: 0rem auto 4rem auto;
+    margin: 0.5rem auto 4rem auto;
 }
 
 .solution-container {
@@ -415,7 +415,7 @@ p {
 /*** Implmentation ***/
 .implementation-container {
     height: auto;
-    padding: 1.5rem 8rem 0 8rem;
+    padding: 3rem 8rem 0 8rem;
     margin: 1rem auto;
 }
 
@@ -489,12 +489,12 @@ p {
     border: none;
     height: 1.5px;
     background-color: #92a0b0;
-    margin: 0.5rem auto 4rem auto;
+    margin: 1rem auto 4rem auto;
 }
 
 .benefit-container {
     height: auto;
-    padding: 3rem 6rem 0 6rem;
+    padding: 3rem 8rem 0 8rem;
     margin: 1rem auto;
     justify-content: center;
     align-items: center;
