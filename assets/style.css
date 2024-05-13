@@ -253,17 +253,19 @@ p {
 .research-container {
     height: auto;
     padding: 3rem 6rem 0 6rem;
-    margin: 1rem auto;
+    margin: 1rem auto 3rem auto;
+
 }
 
 .research-container h2 {
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
 }
 
 .research-container p {
     font-size: 115%;
     letter-spacing: 0.3px;
     line-height: 1.5;
+    margin-bottom: 2rem;
 }
 
 .research-container ul {
@@ -285,17 +287,18 @@ p {
 .design-container {
     height: auto;
     padding: 3rem 6rem 0 6rem;
-    margin: 1rem auto;
+    margin: 0 auto 5rem auto;
 }
 
 .design-container h2 {
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
 }
 
 .design-container p {
     font-size: 115%;
     letter-spacing: 0.3px;
     line-height: 1.5;
+    margin-bottom: 2rem;
 }
 
 .design-container ul {
@@ -343,9 +346,6 @@ p {
     text-align: center;
 }
 
-.text-column h2 {
-}
-
 .text-column p {
     padding: 0 15px;
     margin-bottom: 2rem;
@@ -356,6 +356,7 @@ p {
     max-width: 468px;
     height: auto; 
     margin: 0 auto;
+    border-radius: 2px;
 }
 
 @media (max-width: 768px) {
@@ -379,13 +380,14 @@ p {
 }
 
 .implementation-container h2 {
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
 }
 
 .implementation-container p {
     font-size: 115%;
     letter-spacing: 0.3px;
     line-height: 1.5;
+    margin-bottom: 2rem;
 }
 
 .implementation-container ul {
@@ -419,7 +421,7 @@ p {
 }
 
 .refinement-container h2 {
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
 }
 
 .refinement-container p {
