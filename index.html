@@ -88,49 +88,78 @@
     <!-- Research Phase -->
     <div class="research-container">
         <h2>Research Phase</h2>
-        <h3>Problem Analysis</h3>
-        <p>
-            After analyzing the current Glamazon newsletter, we identified 
-            several opportunities for improvement. We observed issues related to 
-            verbosity, lack of visual elements, and the absence of updated news.
-        </p>
+        <div class="solution-content-container">
+            <div class="image-container">
+                <img src="assets/img/solution/01a-problem-analysis.png" alt="Problem Analysis">
+            </div>
+            <div class="text-container">
+                <h3>Problem Analysis</h3>
+                <p>
+                    After analyzing the current Glamazon newsletter, we identified 
+                    several opportunities for improvement. We observed issues related to 
+                    verbosity, lack of visual elements, and the absence of updated news.
+                </p>
+            </div>
+        </div>
         
-        <h3>Methodology Research</h3>
-        <p>
-            To integrate news content into the newsletter, we started methodical 
-            research on various machine learning and AI technologies such as 
-            name entity recognition, topic modeling, knowledge graphs, and Large 
-            Language Models (LLMs). 
-        </p>
-        <p>
-            Name entity recognition aids in news aggregation by extracting 
-            relevant entities. Topic modeling facilitates the classification and 
-            management of news topics for organized content delivery. Knowledge 
-            graph plays a key role in data integration and information retrieval 
-            by connecting information pieces. LLMs enable data summarization and 
-            semantic search, enhancing content comprehension. These technologies 
-            are the cornerstone of our implementation phase.
-        </p>
+        <div class="solution-content-container">
+            <div class="image-container">
+                <img src="assets/img/solution/01b-methodology-research.png" alt="Methodology Research">
+            </div>
+            <div class="text-container">
+                <h3>Methodology Research</h3>
+                <p>
+                    To integrate news content into the newsletter, we started methodical 
+                    research on various machine learning and AI technologies such as 
+                    name entity recognition, topic modeling, knowledge graphs, and Large 
+                    Language Models (LLMs). 
+                </p>
+                <p>
+                    Name entity recognition aids in news aggregation by extracting 
+                    relevant entities. Topic modeling facilitates the classification and 
+                    management of news topics for organized content delivery. Knowledge 
+                    graph plays a key role in data integration and information retrieval 
+                    by connecting information pieces. LLMs enable data summarization and 
+                    semantic search, enhancing content comprehension. These technologies 
+                    are the cornerstone of our implementation phase.
+                </p>
+            </div>
+        </div>
     </div>
 
 
     <!-- Design -->
     <div class="design-container">
         <h2>Design Phase</h2>
-        <h3>Positioning</h3>
-        <p>
-            Following identification of opportunities and exploration of 
-            existing technologies, we positioned our product as A Live News 
-            Digest Platform with Interactive Visualization. The overarching 
-            objective is to facilitate news retrieval and content understanding.
-        </p>
-        <h3>Prototype Design</h3>
-        <p>
-            Based on our positioning, we started product prototyping. Our design 
-            is concentrated on four main components, each centered around 
-            location, people, trends, and search functionality.
-        </p>
+        <div class="solution-content-container">
+            <div class="image-container">
+                <img src="assets/img/solution/02a-positioning.png" alt="Positioning">
+            </div>
+            <div class="text-container">
+                <h3>Positioning</h3>
+                <p>
+                    Following identification of opportunities and exploration of 
+                    existing technologies, we positioned our product as A Live News 
+                    Digest Platform with Interactive Visualization. The overarching 
+                    objective is to facilitate news retrieval and content understanding.
+                </p>
+            </div>
+        </div>
+        <div class="solution-content-container">
+            <div class="image-container">
+                <img src="assets/img/solution/02b-prototype-design.png" alt="Prototype Design">
+            </div>
+            <div class="text-container">
+                <h3>Prototype Design</h3>
+                <p>
+                    Based on our positioning, we started product prototyping. Our design 
+                    is concentrated on four main components, each centered around 
+                    location, people, trends, and search functionality.
+                </p>
+            </div>
+        </div>
     </div>
+
 
     <!-- Prototype -->
     <div class="prototype-container">
@@ -176,56 +205,83 @@
     <!-- Implementation Phase -->
     <div class="implementation-container">
         <h2>Implementation Phase</h2>
-        <img src="assets/img/implementation.jpg" alt="Architecture Diagram">
-        <h3>Data Engineering</h3>
-        <p>
-            We sourced news data from online platforms via the Google News API. 
-            To automate this task, we implemented Apache Airflow to schedule 
-            daily scraping activities.
-        </p>
-        
-        <h3>Machine Learning</h3>
-        <p>
-            Location/People Page: We leveraged name entity recognition to 
-            extract entities from news articles and aggregated news based on 
-            these entities. In our testing product, we constructed an entity 
-            graph within our product, with entities comprising individuals and 
-            locations.
-        </p>
-        <p>
-            Topic Page: Utilizing Large Language Model embeddings, we developed 
-            a clustering model to categorize news articles into different 
-            groups. For each cluster, we employed topic modeling and LLM prompt 
-            engineering techniques to extract keywords and summaries.
-        </p>
-        <p>
-            Search Page: We stored embeddings of news articles in a vector 
-            database. User search queries are encoded using the same embeddings, 
-            facilitating matching against the database to retrieve the most 
-            relevant news items.
-        </p>
-    
-        <h3>Front-end Development</h3>
-        <p>
-            Incorporating JavaScript and Python, we introduced numerous 
-            interactive functionalities, such as node-specific click 
-            interactions and cluster filtering, to enhance user engagement and 
-            experience.
-        </p>
+        <img src="assets/img/implementation.jpg" alt="Architecture Diagram" class="arch-diagram">
+        <div class="solution-content-container">
+            <div class="image-container">
+                <img src="assets/img/solution/03a-data-engineering.png" alt="Data Engineering">
+            </div>
+            <div class="text-container">
+                <h3>Data Engineering</h3>
+                <p>
+                    We sourced news data from online platforms via the Google News API. 
+                    To automate this task, we implemented Apache Airflow to schedule 
+                    daily scraping activities.
+                </p>
+            </div>
+        </div>
+        <div class="solution-content-container">
+            <div class="image-container">
+                <img src="assets/img/solution/03b-machine-learning.png" alt="Machine Learning">
+            </div>
+            <div class="text-container">
+                <h3>Machine Learning</h3>
+                <p>
+                    Location/People Page: We leveraged name entity recognition to 
+                    extract entities from news articles and aggregated news based on 
+                    these entities. In our testing product, we constructed an entity 
+                    graph within our product, with entities comprising individuals and 
+                    locations.
+                </p>
+                <p>
+                    Topic Page: Utilizing Large Language Model embeddings, we developed 
+                    a clustering model to categorize news articles into different 
+                    groups. For each cluster, we employed topic modeling and LLM prompt 
+                    engineering techniques to extract keywords and summaries.
+                </p>
+                <p>
+                    Search Page: We stored embeddings of news articles in a vector 
+                    database. User search queries are encoded using the same embeddings, 
+                    facilitating matching against the database to retrieve the most 
+                    relevant news items.
+                </p>
+            </div>
+        </div>
+        <div class="solution-content-container">
+            <div class="image-container">
+                <img src="assets/img/solution/03c-front-end-dev.png" alt="Front-end Development">
+            </div>
+            <div class="text-container">
+                <h3>Front-end Development</h3>
+                <p>
+                    Incorporating JavaScript and Python, we introduced numerous 
+                    interactive functionalities, such as node-specific click 
+                    interactions and cluster filtering, to enhance user engagement and 
+                    experience.
+                </p>
+            </div>
+        </div>
     </div>
 
 
     <!-- Testing & Refinement Phase -->
     <div class="refinement-container">
         <h2>Testing & Refinement Phase</h2>
-        <h3>User Testing & Adjustments</h3>
-        <p>
-            We invited classmates and friends to engage with our test product 
-            and prototype, gathering valuable feedback to refine our design. 
-            Based on this input, we iteratively adjusted our prototype to 
-            enhance its usability and effectiveness.
-        </p>
+        <div class="solution-content-container">
+            <div class="image-container">
+                <img src="assets/img/solution/04a-refinement.png" alt="User Testing">
+            </div>
+            <div class="text-container">
+                <h3>User Testing & Adjustments</h3>
+                <p>
+                    We invited classmates and friends to engage with our test product 
+                    and prototype, gathering valuable feedback to refine our design. 
+                    Based on this input, we iteratively adjusted our prototype to 
+                    enhance its usability and effectiveness.
+                </p>
+            </div>
+        </div>
     </div>
+
 
 
     <!-- Benefits -->
