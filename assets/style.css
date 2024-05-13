@@ -124,6 +124,7 @@ p {
 @media (max-width: 768px) {
     .overview-container {
         flex-direction: column; /* Stack containers vertically */
+        padding: 3rem 2rem 0 2rem;
     }
 
     .overview-content-container {
