@@ -144,7 +144,7 @@ p {
 /*** Problems & Opportunities ***/
 
 .problem-container {
-    padding: 20px;
+    margin-bottom: 0rem;
 }
 
 .problem-hr-top {
@@ -152,7 +152,7 @@ p {
     border: none;
     height: 1.5px;
     background-color: #92a0b0;
-    margin: 3rem auto 2rem auto;
+    margin: 3.5rem auto 2rem auto;
 }
 
 .problem-container h1 {
@@ -166,7 +166,7 @@ p {
     justify-content: center;
     gap: 2rem;
     flex-wrap: wrap;
-    margin: 2rem auto;
+    margin: 2rem auto 3rem auto;
 }
 
 .problem-box {
@@ -175,7 +175,7 @@ p {
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.2);
     width: 500px;
-    margin: 0 3rem;
+    margin: 0 3rem 2rem 3rem;
     box-sizing: border-box; /* Includes padding and border in the width */
     display: flex;
     flex-direction: column; 
@@ -209,62 +209,204 @@ p {
     transform: scale(1.05); /* Slightly enlarge the box on hover */
 }
 
-.problem-hr-bottom {
+
+
+/*** Solution ***/
+.solution-hr-top {
     width: 30%;
     border: none;
     height: 1.5px;
     background-color: #92a0b0;
-    margin: 5rem auto 2rem auto;
+    margin: 0rem auto 4rem auto;
+}
+
+.solution-container {
+    height: auto;
+    padding: 1rem 6rem 0 6rem;
+    margin: 0rem auto 1rem auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.solution-container img {
+    width: 80%;
+    height: auto; 
+    display: block;
+    margin: 3rem auto;
+}
+
+@media (max-width: 768px) {
+    .solution-container {
+        padding: 3rem 2rem 0 2rem;
+    }
+
+    .solution-container img {
+        width: 90%;
+    }
 }
 
 
 
-/*** Solution ***/
+/*** Research ***/
 
-.solution-container {
+.research-container {
     height: auto;
     padding: 3rem 6rem 0 6rem;
     margin: 1rem auto;
 }
 
+.research-container h2 {
+    margin-bottom: 1rem;
+}
+
+.research-container p {
+    font-size: 115%;
+    letter-spacing: 0.3px;
+    line-height: 1.5;
+}
+
+.research-container ul {
+    font-size: 115%;
+    letter-spacing: 0.3px;
+    line-height: 1.5;
+}
+
+@media (max-width: 768px) {
+    .research-container {
+        padding: 3rem 2rem 0 2rem;
+    }
+}
 
 
-/*** Placeholders ***/
-/* Common Styles for Phase Containers */
-.research-container,
-.design-container,
+
+/*** Design ***/
+
+.design-container {
+    height: auto;
+    padding: 3rem 6rem 0 6rem;
+    margin: 1rem auto;
+}
+
+.design-container h2 {
+    margin-bottom: 1rem;
+}
+
+.design-container p {
+    font-size: 115%;
+    letter-spacing: 0.3px;
+    line-height: 1.5;
+}
+
+.design-container ul {
+    font-size: 115%;
+    letter-spacing: 0.3px;
+    line-height: 1.5;
+}
+
+@media (max-width: 768px) {
+    .design-container {
+        padding: 3rem 2rem 0 2rem;
+    }
+}
+
+
+
+/*** Prototype ***/
+
+.prototype-container {
+    height: auto;
+    padding: 3rem 6rem 3rem 6rem;
+    margin: 0 auto;
+    background-color: #232f3e;
+    color: #f2f2f2;
+}
+
+.prototype-container p {
+    font-size: 120%;
+    line-height: 1.6;
+    text-align: justify;
+    margin-bottom: 1rem;
+}
+
+.page-row {
+    display: flex;
+    flex-wrap: wrap; /* Ensures responsiveness */
+    justify-content: space-between; /* Space between the text and image columns */
+    align-items: center;
+    margin: 4rem 0;
+}
+
+.text-column, .image-column {
+    flex: 1 1 50%; /* Flex grow, shrink and basis set to take half of the space */
+    min-width: 300px;
+    text-align: center;
+}
+
+.text-column h2 {
+}
+
+.text-column p {
+    padding: 0 15px;
+    margin-bottom: 2rem;
+}
+
+.image-column img {
+    width: 100%; 
+    max-width: 468px;
+    height: auto; 
+    margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+    .prototype-container {
+        padding: 3rem 3rem 0 3rem;
+    }
+
+    .page-row {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
+
+/*** Implmentation ***/
 .implementation-container {
     height: auto;
     padding: 3rem 6rem 0 6rem;
     margin: 1rem auto;
 }
 
-.research-container h2, .design-container h2, .implementation-container h2 {
+.implementation-container h2 {
     margin-bottom: 1rem;
 }
 
-.research-container p, .design-container p, .implementation-container p {
+.implementation-container p {
     font-size: 115%;
     letter-spacing: 0.3px;
     line-height: 1.5;
 }
 
-.research-container ul, .design-container ul, .implementation-container ul {
+.implementation-container ul {
     font-size: 115%;
     letter-spacing: 0.3px;
     line-height: 1.5;
 }
 
+.implementation-container img {
+    width: 80%;
+    height: auto; 
+    display: block;
+    margin: 2rem auto;
+}
 
 /* Responsive adjustments for smaller screens */
 @media (max-width: 768px) {
-    .research-container,
-    .design-container,
     .implementation-container {
         padding: 3rem 2rem 0 2rem;
     }
 }
-
 
 
 
@@ -296,10 +438,25 @@ p {
 
 /*** Benefits ***/
 
+.benefit-hr-top {
+    width: 30%;
+    border: none;
+    height: 1.5px;
+    background-color: #92a0b0;
+    margin: 0.5rem auto 4rem auto;
+}
+
 .benefit-container {
     height: auto;
     padding: 3rem 6rem 0 6rem;
     margin: 1rem auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.benefit-container h1 {
+    margin-bottom: 2.5rem;
 }
 
 .benefit-container p {
