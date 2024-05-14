@@ -68,6 +68,9 @@ p {
     background-color: #cc7a00; /* Darker orange on hover */
 }
 
+html {
+    scroll-behavior: smooth;
+}
 
 
 /*** Project Overview ***/
